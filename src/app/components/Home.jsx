@@ -40,7 +40,7 @@ const Home = () => {
   </div>
 </div>
 <Link
-  href="/week1.pdf" 
+  href="/Surabhi_K KResume.pdf" 
   download 
   className="
     inline-block 
