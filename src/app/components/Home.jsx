@@ -1,10 +1,12 @@
+'use client';
+
 import { Github, Linkedin, Mail } from 'lucide-react'
 import Link from 'next/link'
 import React from 'react'
 
 const Home = () => {
   return (
-    <section id="home" className="scroll-mt-[12vh] overflow-x-hidden ">
+    <section id="home" className="scroll-mt-[12vh] pt-[8vh] overflow-visible sm:overflow-x-hidden md:overflow-x-hidden ">
       <div className="flex flex-col-reverse  lg:flex-row items-center justify-between bg-gray-700 px-10 sm:px-15 md:px-20 py-6 min-h-screen">
   
   {/* Left Side - Text Content */}
@@ -13,15 +15,15 @@ const Home = () => {
   Hello, I am
 </span>
 
-<p className="text-2xl sm:text-3xl md:text-5xl font-bold text-white">
+<p className="text-3xl sm:text-3xl md:text-5xl font-bold text-white">
   Surabhi K K
 </p>
 
-<p className="text-2xl sm:text-3xl md:text-5xl font-bold text-white">
+<p className="text-3xl sm:text-3xl md:text-5xl font-bold text-white">
   I'm a <span className="text-blue-500">Full Stack</span>
 </p>
 
-<p className="text-2xl sm:text-3xl md:text-5xl font-bold text-blue-500">
+<p className="text-3xl sm:text-3xl md:text-5xl font-bold text-blue-500">
   Developer
 </p>
 
@@ -76,6 +78,19 @@ const Home = () => {
 />
 
 </div>
+<style jsx>{`
+  @keyframes bounce-mobile {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-5px); /* Reduced bounce */
+    }
+  }
+  .animate-bounce-mobile {
+    animation: bounce-mobile 4s ease-in-out infinite;
+  }
+`}</style>
 
 </div>
 
