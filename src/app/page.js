@@ -7,8 +7,8 @@ import Skill from "./components/Skill";
 import Project from "./components/project"
 export default function page() {
   return (
-    <div>
-      <Navbar />
+    <div className="overflow-x-hidden">
+        <Navbar />
       <main className="scroll-smooth">
       <Home />
       <About />

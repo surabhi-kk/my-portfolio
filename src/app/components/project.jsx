@@ -28,8 +28,8 @@ function Project() {
   return (
     <section id="project" className="scroll-mt-[12vh]">
       <div className="bg-gray-700 items-center text-center justify-center py-10 px-10 min-h-screen">
-        <span className="text-5xl font-bold text-white">My </span>
-        <span className="text-5xl font-bold text-blue-500">Project</span>
+        <span className="text-3xl sm:text-3xl md:text-5xl font-bold text-white">My </span>
+        <span className="text-3xl sm:text-3xl md:text-5xl font-bold text-blue-500">Project</span>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-10 mx-auto max-w-6xl">
           {project.map((s) => (
