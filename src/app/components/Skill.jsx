@@ -26,7 +26,7 @@ function Skill() {
       key={s.name}
       className="w-20 h-20 
         sm:w-40 sm:h-40 
-        md:w-44 md:h-44   shadow-white shadow-md flex flex-col items-center justify-center gap-2 sm:gap:4 md:gap-6 py-6 text-white shadow-lg rounded-2xl p-6 w-40 text-center hover:bg-blue-500 hover:scale-105 transition-transform duration-300"
+        md:w-44 md:h-44   shadow-white shadow-md flex flex-col items-center justify-center gap-4 sm:gap:4 md:gap-6 py-6 text-white shadow-lg rounded-2xl p-6 text-center hover:bg-blue-500 hover:scale-105 transition-transform duration-300"
     >
       <img
         src={s.image}
